@@ -1,0 +1,85 @@
+PanelWidgetClass SWLeaderboardRow
+{
+ position 0 0
+ size 1 0.04
+ color 10 13 16 255
+ style DayZDefaultPanel
+ {
+  PanelWidgetClass SWLbAccent
+  {
+   position 0 0.10
+   size 0.006 0.80
+   color 40 60 72 255
+   style DayZDefaultPanel
+   ignorepointer 1
+   {
+   }
+  }
+  TextWidgetClass SWLbRankText
+  {
+   position 0.01 0.08
+   size 0.09 0.84
+   text "1"
+   font "gui/fonts/sdf_MetronBook14"
+   "text valign" center
+   "text halign" center
+   color 255 255 255 255
+   ignorepointer 1
+  }
+  TextWidgetClass SWLbNameText
+  {
+   position 0.10 0.08
+   size 0.36 0.84
+   text "Player"
+   font "gui/fonts/sdf_MetronBook14"
+   "text valign" center
+   "text halign" left
+   color 230 236 242 255
+   ignorepointer 1
+  }
+  TextWidgetClass SWLbKillsText
+  {
+   position 0.46 0.08
+   size 0.12 0.84
+   text "0"
+   font "gui/fonts/sdf_MetronBook14"
+   "text valign" center
+   "text halign" center
+   color 230 236 242 255
+   ignorepointer 1
+  }
+  TextWidgetClass SWLbDeathsText
+  {
+   position 0.58 0.08
+   size 0.12 0.84
+   text "0"
+   font "gui/fonts/sdf_MetronBook14"
+   "text valign" center
+   "text halign" center
+   color 230 236 242 255
+   ignorepointer 1
+  }
+  TextWidgetClass SWLbKdText
+  {
+   position 0.70 0.08
+   size 0.12 0.84
+   text "0.00"
+   font "gui/fonts/sdf_MetronBook14"
+   "text valign" center
+   "text halign" center
+   color 230 236 242 255
+   ignorepointer 1
+  }
+  TextWidgetClass SWLbLongestText
+  {
+   position 0.82 0.08
+   size 0.17 0.84
+   text "0m"
+   font "gui/fonts/sdf_MetronBook14"
+   "text valign" center
+   "text halign" center
+   color 230 236 242 255
+   ignorepointer 1
+  }
+ }
+}

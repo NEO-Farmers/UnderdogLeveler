@@ -1,0 +1,182 @@
+FrameWidgetClass SecondWindStatsRoot
+{
+ position 0 0
+ size 1 1
+ halign fill
+ valign fill
+ visible 1
+ {
+  PanelWidgetClass SWStatsScreenTint
+  {
+   position 0 0
+   size 1 1
+   color 0 0 0 255
+   style DayZDefaultPanel
+   {
+   }
+  }
+  PanelWidgetClass SWStatsBackground
+  {
+   position 0.14 0.04
+   size 0.72 0.92
+   color 6 9 11 255
+   style DayZDefaultPanel
+   {
+    TextWidgetClass SWStatsTitleText
+    {
+     position 0.03 0.02
+     size 0.94 0.06
+     text "Field Report"
+     font "gui/fonts/sdf_MetronBook24"
+     "text valign" center
+     "text halign" center
+     color 88 200 230 255
+    }
+    PanelWidgetClass SWStatsBodyHost
+    {
+     position 0.03 0.09
+     size 0.94 0.24
+     color 4 6 8 255
+     style DayZDefaultPanel
+     {
+      TextWidgetClass SWStatsBodyText
+      {
+       position 0.02 0.02
+       size 0.96 0.96
+       text ""
+       font "gui/fonts/sdf_MetronBook14"
+       "text valign" top
+       "text halign" left
+       color 230 236 242 255
+       multiline 1
+      }
+     }
+    }
+    PanelWidgetClass SWLeaderboardHeader
+    {
+     position 0.03 0.34
+     size 0.94 0.04
+     color 20 28 34 255
+     style DayZDefaultPanel
+     {
+      TextWidgetClass SWLbHeaderRank
+      {
+       position 0.01 0
+       size 0.09 1
+       text "Rank"
+       font "gui/fonts/sdf_MetronBook12"
+       "text valign" center
+       "text halign" center
+       color 150 165 180 255
+       ignorepointer 1
+      }
+      TextWidgetClass SWLbHeaderName
+      {
+       position 0.10 0
+       size 0.36 1
+       text "Name"
+       font "gui/fonts/sdf_MetronBook12"
+       "text valign" center
+       "text halign" left
+       color 150 165 180 255
+       ignorepointer 1
+      }
+      TextWidgetClass SWLbHeaderKills
+      {
+       position 0.46 0
+       size 0.12 1
+       text "Kills"
+       font "gui/fonts/sdf_MetronBook12"
+       "text valign" center
+       "text halign" center
+       color 150 165 180 255
+       ignorepointer 1
+      }
+      TextWidgetClass SWLbHeaderDeaths
+      {
+       position 0.58 0
+       size 0.12 1
+       text "Deaths"
+       font "gui/fonts/sdf_MetronBook12"
+       "text valign" center
+       "text halign" center
+       color 150 165 180 255
+       ignorepointer 1
+      }
+      TextWidgetClass SWLbHeaderKd
+      {
+       position 0.70 0
+       size 0.12 1
+       text "K/D"
+       font "gui/fonts/sdf_MetronBook12"
+       "text valign" center
+       "text halign" center
+       color 150 165 180 255
+       ignorepointer 1
+      }
+      TextWidgetClass SWLbHeaderLongest
+      {
+       position 0.82 0
+       size 0.17 1
+       text "Longest"
+       font "gui/fonts/sdf_MetronBook12"
+       "text valign" center
+       "text halign" center
+       color 150 165 180 255
+       ignorepointer 1
+      }
+     }
+    }
+    PanelWidgetClass SWLeaderboardHost
+    {
+     position 0.03 0.39
+     size 0.94 0.40
+     color 4 6 8 255
+     style DayZDefaultPanel
+     {
+     }
+    }
+    ButtonWidgetClass SWStatsStoreButton
+    {
+     position 0.06 0.82
+     size 0.40 0.08
+     color 28 38 46 255
+     style DayZDefaultPanel
+     {
+      TextWidgetClass SWStatsStoreText
+      {
+       position 0 0
+       size 1 1
+       text "Open Store"
+       font "gui/fonts/sdf_MetronBook16"
+       "text valign" center
+       "text halign" center
+       color 230 230 230 255
+       ignorepointer 1
+      }
+     }
+    }
+    ButtonWidgetClass SWStatsExitButton
+    {
+     position 0.54 0.82
+     size 0.40 0.08
+     color 28 38 46 255
+     style DayZDefaultPanel
+     {
+      TextWidgetClass SWStatsExitText
+      {
+       position 0 0
+       size 1 1
+       text "Close"
+       font "gui/fonts/sdf_MetronBook16"
+       "text valign" center
+       "text halign" center
+       color 230 230 230 255
+       ignorepointer 1
+      }
+     }
+    }
+   }
+  }
+ }
+}

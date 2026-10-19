@@ -1,0 +1,145 @@
+FrameWidgetClass SecondWindShopRoot
+{
+ position 0 0
+ size 1 1
+ halign fill
+ valign fill
+ visible 1
+ {
+  PanelWidgetClass SWScreenTint
+  {
+   position 0 0
+   size 1 1
+   color 0 0 0 255
+   style DayZDefaultPanel
+   {
+   }
+  }
+  PanelWidgetClass SWBackground
+  {
+   position 0.13 0.07
+   size 0.74 0.86
+   color 6 9 11 255
+   style DayZDefaultPanel
+   {
+    PanelWidgetClass SWTopBar
+    {
+     position 0.00 0.00
+     size 1.00 0.12
+     color 20 28 34 255
+     style DayZDefaultPanel
+     {
+      TextWidgetClass SWTitleText
+      {
+       position 0.04 0.10
+       size 0.50 0.42
+       text "Field Requisition"
+       font "gui/fonts/sdf_MetronBook24"
+       "text valign" center
+       "text halign" left
+       color 88 200 230 255
+      }
+      TextWidgetClass SWSubtitleText
+      {
+       position 0.04 0.52
+       size 0.55 0.30
+       text "Spend Grit earned from surviving and coming back"
+       font "gui/fonts/sdf_MetronBook14"
+       "text valign" center
+       "text halign" left
+       color 150 165 180 255
+      }
+      PanelWidgetClass SWWalletCard
+      {
+       position 0.66 0.18
+       size 0.30 0.64
+       color 10 13 16 255
+       style DayZDefaultPanel
+       {
+        TextWidgetClass SWWalletLabelText
+        {
+         position 0.06 0.10
+         size 0.40 0.26
+         text "GRIT"
+         font "gui/fonts/sdf_MetronBook14"
+         "text valign" center
+         "text halign" left
+         color 120 140 155 255
+         ignorepointer 1
+        }
+        TextWidgetClass SWGritText
+        {
+         position 0.06 0.40
+         size 0.88 0.44
+         text "Grit: 0"
+         font "gui/fonts/sdf_MetronBook18"
+         "text valign" center
+         "text halign" left
+         color 120 230 200 255
+        }
+       }
+      }
+     }
+    }
+    TextWidgetClass SWInfoText
+    {
+     position 0.04 0.135
+     size 0.92 0.032
+     text "The worse it goes, the more Grit you earn. Click a card to requisition it."
+     font "gui/fonts/sdf_MetronBook16"
+     "text valign" center
+     "text halign" left
+     color 170 178 186 255
+    }
+    PanelWidgetClass SWRowsHost
+    {
+     position 0.03 0.185
+     size 0.94 0.68
+     color 4 6 8 255
+     style DayZDefaultPanel
+     {
+     }
+    }
+    PanelWidgetClass SWFooterBar
+    {
+     position 0.03 0.875
+     size 0.94 0.09
+     color 20 28 34 255
+     style DayZDefaultPanel
+     {
+      TextWidgetClass SWStatusText
+      {
+       position 0.03 0.14
+       size 0.62 0.72
+       text ""
+       font "gui/fonts/sdf_MetronBook16"
+       "text valign" center
+       "text halign" left
+       color 235 240 245 255
+      }
+      ButtonWidgetClass SWBackButton
+      {
+       position 0.70 0.15
+       size 0.26 0.70
+       color 28 38 46 255
+       style DayZDefaultPanel
+       {
+        TextWidgetClass SWBackText
+        {
+         position 0 0
+         size 1 1
+         text "Exit (ESC)"
+         font "gui/fonts/sdf_MetronBook16"
+         "text valign" center
+         "text halign" center
+         color 230 230 230 255
+         ignorepointer 1
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

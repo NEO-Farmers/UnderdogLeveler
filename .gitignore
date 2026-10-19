@@ -1,0 +1,17 @@
+# Reference mod — not our work, do NOT publish
+SF_Leaderboard.pbo
+SF_Leaderboard.pbo.*.bisign
+/SF_Leaderboard/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Intermediate packer output (packer writes this, then copies into @UnderdogLeveler/)
+/UnderdogLeveler.pbo
+
+# OS / editor junk
+Thumbs.db
+.DS_Store
+desktop.ini
